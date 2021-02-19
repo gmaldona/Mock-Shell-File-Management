@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1/main.c
+dirent.h
+-
+string.h
+-
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+
