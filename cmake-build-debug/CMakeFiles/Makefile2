@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1"
+CMAKE_SOURCE_DIR = "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/Project_1.dir/clean
 CMakeFiles/Project_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Project_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Project_1"
 .PHONY : CMakeFiles/Project_1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Project_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Project 1/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/Project_1.dir/rule
 
 # Convenience name for target.

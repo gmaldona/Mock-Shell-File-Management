@@ -28,10 +28,19 @@ void addToTrie(char* word, struct node* node) {
         const int NUMBER_OF_CHILDREN = 127;
         const unsigned int CHILDREN_ALLOCATION_SIZE = NUMBER_OF_CHILDREN * sizeof(struct node *);
 
+        //*node->children = (struct node*) malloc(sizeof(CHILDREN_ALLOCATION_SIZE));
+
         // If any children nodes don't exist
         if (node->children[0] == NULL || node->children[0]->letter == '\0') {
-            struct node *childPtr = (struct node*) malloc(sizeof(struct node*));
+        //if (node->children[0] == NULL) {
+            //Allocating memory to make an array of pointers of child nodes - NEW
+            //*node->children = (struct node*) malloc(sizeof(CHILDREN_ALLOCATION_SIZE));
+            struct node* childPtr = (struct node*) malloc(sizeof(struct node*));
+            // Unnecessary?
+            struct node child = {currentLetter, (struct node*) malloc(sizeof(CHILDREN_ALLOCATION_SIZE))};
+            childPtr = &child;
             childPtr->letter = currentLetter;
+            //CHANGED
             *childPtr->children = (struct node*) malloc(sizeof(CHILDREN_ALLOCATION_SIZE));
             childPtr->parent = node;
             node->children[0] = childPtr;
@@ -47,7 +56,10 @@ void addToTrie(char* word, struct node* node) {
 
                 // If the node has a null pointer (a node with that letter doesn't exist)
                 if (node->children[i] == NULL) {
-                    struct node *childPtr = (struct node*) malloc(CHILDREN_ALLOCATION_SIZE);
+                    //CHANGED
+                    //*node->children = (struct node*) malloc(CHILDREN_ALLOCATION_SIZE);
+                    struct node *childPtr = (struct node*) malloc(sizeof(struct node*));
+                    //CHANGED
                     *childPtr->children = (struct node*) malloc(sizeof(CHILDREN_ALLOCATION_SIZE));
                     childPtr->letter = currentLetter;
                     childPtr->parent = node;
@@ -103,9 +115,12 @@ int main() {
     const int CHILDREN_ALLOCATION_SIZE = 127 * sizeof(struct node*);
     struct node head = {' ', malloc(CHILDREN_ALLOCATION_SIZE)};
     struct node* headPtr = &head;
-    for (int i = 0; i < MAX_FILES; i++) {
+    for (int i = 0; i < MAX_FILES - 1; i++) {
         char* file = files[i];
-        addToTrie(file, headPtr);
+        if (file != NULL)
+            addToTrie(file, headPtr);
+        else
+            break;
     }
 
 
