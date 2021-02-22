@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/main.c
+/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/main.c
 dirent.h
 -
 string.h
@@ -16,5 +16,9 @@ ctype.h
 stdio.h
 -
 stdlib.h
+-
+sys/stat.h
+-
+stdbool.h
 -
 

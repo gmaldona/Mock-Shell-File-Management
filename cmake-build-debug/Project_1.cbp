@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"/>
+				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"/>
+				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"/>
+				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1">
-				<Option output="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"/>
+				<Option output="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1/fast">
-				<Option output="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug"/>
+				<Option output="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,17 +71,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC\ 344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/main.c">
+		<Unit filename="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/main.c">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/CMakeLists.txt">
+		<Unit filename="/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

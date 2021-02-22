@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/main.c" "/Users/gregory/Desktop/Oswego/ComputerScience/CSC 344/Mock-Shell-File-Management/cmake-build-debug/CMakeFiles/Project_1.dir/main.c.o"
+  "/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/main.c" "/Users/gregory/Desktop/Oswego/ComputerScience/CSC344/Mock-Shell-File-Management/cmake-build-debug/CMakeFiles/Project_1.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
