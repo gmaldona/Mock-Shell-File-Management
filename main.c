@@ -15,6 +15,50 @@ struct node {
     int numberOfChildren;
 };
 
+// Sorts the list of files in the directory
+void sort(char** list, int numberOfFiles) {
+    // Loops through each word and compares one word in the list to another word in the list
+    for (int i = 0; i < numberOfFiles; i++) {
+        for (int j = i; j < numberOfFiles; j++) {
+            // If its the same word just skip
+            if (i == j)
+                continue;
+            // COmpares the first letter in each word to see if there can be a swap
+            if (list[j][0] < list[i][0]) {
+                char tempWord[strlen(list[i])];
+                strcpy(tempWord, list[i]);
+                strcpy(list[i], list[j]);
+                strcpy(list[j], tempWord);
+            }
+            // If the first letters are the same same then iterate over each other letter in the word and compare
+            // First letter in each words that are not the same, sort and break
+            else if (list[j][0] == list[i][0]) {
+                // Finds the shortest word to make sure there are no bad memory accesses
+                int shortestWordLength = 0;
+                if (strlen(list[i]) <= strlen(list[j]))
+                    shortestWordLength = strlen(list[i]);
+                else
+                    shortestWordLength = strlen(list[j]);
+
+                //Loops through each character in the words
+                for (int k = 0; k < shortestWordLength; k++) {
+                    // If same letter skip to next letter
+                    if (list[i][k] == list[j][k])
+                        continue;
+                    // If a letter is found is word i that is not found in word j, then swap and break
+                    else if (list[j][k] < list[i][k]) {
+                        char tempWord[strlen(list[i])];
+                        strcpy(tempWord, list[i]);
+                        strcpy(list[i], list[j]);
+                        strcpy(list[j], tempWord);
+                        break;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Function to recursively add files to the trie
 void addToTrie(char* name, struct node* node, unsigned int size) {
     // Terminator
@@ -239,7 +283,7 @@ int main() {
         // Counter for the indices in the array of file names
         int counter = 0;
         // Gets the list of files in a directory
-        char *files[MAX_FILES];
+        char* files[MAX_FILES];
 
         if (d) {
             // Loops through while there is still a valid directory
@@ -259,6 +303,8 @@ int main() {
             //Closes the directory
             closedir(d);
         }
+
+        sort(files, counter);
 
         const int CHILDREN_ALLOCATION_SIZE = 127 * sizeof(struct node *);
         // creates the start of the trie
